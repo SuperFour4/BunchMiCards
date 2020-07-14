@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:bunch_mi_cards/screens/ajay.dart';
-
 class SaiKumar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,7 +16,14 @@ class SaiKumar extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 70,
-                backgroundImage: AssetImage('images/saikumar.jpg'),
+                backgroundColor: Colors.black,
+                foregroundColor: Colors.white,
+                child: Text(
+                  'SAI KUMAR',
+                  style: TextStyle(
+                    fontSize: 25.0,
+                  ),
+                ),
               ),
               Text(
                 'Sai Kumar',

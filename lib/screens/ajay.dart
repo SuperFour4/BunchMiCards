@@ -1,16 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bunch_mi_cards/screens/anirudh.dart';
-
 class Ajay extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('AJAY'),
-        backgroundColor: Colors.black,
-      ),
-      body: Text('AJAY'),
-    );
+    return Container();
   }
 }
 //TODO: onPressed lo em rayalo nenu miku chepta danini empty ga vadileyandi
