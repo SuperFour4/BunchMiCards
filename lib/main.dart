@@ -7,7 +7,7 @@ import 'package:bunch_mi_cards/screens/saikumar.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/saikumar',
+    initialRoute: '/ajay',
     routes: {
       '/saikumar': (context) => SaiKumar(),
       '/ajay': (context) => Ajay(),
