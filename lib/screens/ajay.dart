@@ -101,6 +101,7 @@ class Ajay extends StatelessWidget {
 
                 FlatButton(
                   onPressed: () {
+                    Navigator.pushNamed(context, '/anirudh');
                   },
                   child: Container(
                     width: 80.0,
